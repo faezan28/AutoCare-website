@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Service | AutoCare Motors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR (FIXED STYLE) -->
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">AutoCare Motors</h1>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cars.html">Cars</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="booking.html" class="active">Book Service</a></li>
+                    <li><a href="contact page.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="page-hero">
+        <div class="page-hero-box">
+            <h2>Book a Car Service</h2>
+            <p>Fill in the form below to schedule your car service with AutoCare Motors.</p>
+        </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="booking-section">
+        <div class="booking-card">
+
+            <h2 class="section-heading">Service Booking Form</h2>
+
+            <form class="booking-form">
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email" required>
+
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter your phone number" required>
+
+                <label>Select Service</label>
+                <select required>
+                    <option>Oil Change</option>
+                    <option>Brake Service</option>
+                    <option>Battery Replacement</option>
+                    <option>Engine Diagnostics</option>
+                    <option>Tyre Replacement</option>
+                </select>
+
+                <label>Preferred Date</label>
+                <input type="date" required>
+
+                <label>Additional Message</label>
+                <textarea rows="4" placeholder="Enter your message"></textarea>
+
+                <div class="form-buttons">
+                    <button type="submit" class="btn">Submit Booking</button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 AutoCare Motors. All Rights Reserved.</p>
+        <p>Email: info@autocaremotors.com | Phone: +971-XXX-XXXX</p>
+    </footer>
+
+</body>
+</html>
